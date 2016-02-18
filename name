@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript is case sensitive </h1>
+
+<p>Try change lastName to lastname.</p>
+
+<p id="demo"></p>
+
+<script>
+var lastName = "solanki";
+var lastname = "chirag";
+document.getElementById("demo").innerHTML = lastName;
+</script>
+
+</body>
+</html>
